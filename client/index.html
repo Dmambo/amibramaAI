@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <title>Amibrama</title>
+    <title>Amibrama/services</title>
   </head>
   <body>
     <nav>
@@ -27,61 +27,44 @@
 
     <!-- HERO SECTION -->
     <section>
-      <div class="hero">
-        <div class="hero-text">
-          <h1 class="animate__zoomInLeft">Welcome to MAMBO!</h1>
-          <p>
-            We are excited to introduce our AI-powered code enhancement tool<br />
-            that helps you write better, more efficient code.
-          </p>
-          <button>Learn More</button>
+      <div class="container">
+        <div class="service-container">
+          <h3>CLEAN CODE</h3>
+          <div class="service">
+            <h5>Write clean code!</h5>
+            <button class="btn">click me</button>
+          </div>
         </div>
-        <div class="hero-image">
-          <img src="assets/code2.jpg" alt="hero" />
+        <div class="service-container">
+          <h3>EXPLAIN CODE</h3>
+          <div class="service">
+            <h5>Explain your code!</h5>
+            <button class="btn1">click me</button>
+          </div>
+        </div>
+      </div>
+      <div class="codes">
+        <div class="cleanCode"></div>
+        <div class="explainCode"></div>
+        <div class="chatContainer"></div>
+        <div class="form">
+          <form>
+            <textarea
+              name="prompt"
+              id="message"
+              class="form"
+              cols="1"
+              rows="1"
+              placeholder="Ask Mambo..."
+            ></textarea>
+            <button type="submit">
+              <img src="assets/send.svg" alt="send" />
+            </button>
+          </form>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT SECTION -->
-    <section>
-      <div class="about">
-        <div class="about-text">
-          <h1 class="animate__zoomInLeft">OUR TOOL</h1>
-          <p>
-            Our tool, MAMBO, uses advanced machine learning algorithms to analyze your code and suggest improvements. It can detect common coding mistakes, suggest alternative approaches to solving problems, and even provide explanations for its recommendations.
-          </p>
-          
-        </div>
-
-        
-    
-      </div>
-      <div class="tool">
-        <h2>What Mambo can do:</h2>
-        <ul>
-            <li>Identify common coding mistakes</li>
-            <li>Provide alternative approaches to solving problems</li>
-            <li>Provide explanations for its recommendations</li>
-    </div>
-    </section>
-
-    <!-- SERVICES SECTION -->
-    <section>
-      <div class="team">
-        <div class="team-text">
-          <h1 class="animate__zoomInLeft">OUR TEAM</h1>
-          <p>
-            Our team is made up of 4 members, all of whom are passionate about coding and technology. We are currently students at <span>MICROVERSE</span>, and we are excited to share our project with you!
-          </p>
-        </div>
-        
-      </div>
-    </section>
-    <div class="use">
-        <p>
-            Whether you are just starting out or an experienced developer, MAMBO is designed to help you write better code and become a more efficient programmer. Give it a try and see the difference it can make for your projects!
-        </p>
-    </div>
     <script type="module" src="/script.js"></script>
   </body>
 </html>
