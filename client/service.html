@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Amibrama/services</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <img src="assets/Mambo.jpg" alt="logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Services</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section>
+      <div class="container">
+        <div class="service-container">
+          <h3>CLEAN CODE</h3>
+          <div class="service">
+            <h5>Write clean code!</h5>
+            <button class="btn">click me</button>
+          </div>
+        </div>
+        <div class="service-container">
+          <h3>EXPLAIN CODE</h3>
+          <div class="service">
+            <h5>Explain your code!</h5>
+            <button class="btn1">click me</button>
+          </div>
+        </div>
+      </div>
+      <div class="codes">
+        <div class="cleanCode"></div>
+        <div class="explainCode"></div>
+        <div class="chatContainer"></div>
+        <div class="form">
+          <form>
+            <textarea
+              name="prompt"
+              id="message"
+              class="form"
+              cols="1"
+              rows="1"
+              placeholder="Ask Mambo..."
+            ></textarea>
+            <button type="submit">
+              <img src="assets/send.svg" alt="send" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
