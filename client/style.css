@@ -252,10 +252,6 @@ span {
   align-items: center;
   margin: auto;
   line-height: 30px;
-  /* background-color: rgba(128, 128, 128, 0.799); */
-  /* padding: 10px 20px;
-  border-radius: 20px; */
-  /* box-shadow: 0 0 10px 0 rgba(82, 231, 124, 0.877); */
 }
 
 .service-container h3 {
@@ -326,7 +322,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 90px 150px;
+  margin: 20px 150px;
   line-height: 30px;
   padding: 20px 0px;
   border-radius: 20px;
@@ -334,7 +330,7 @@ span {
 
 .cleanCode,
 .explainCode {
-  margin: 40px 0;
+  margin: 15px 0;
 }
 
 p {
@@ -363,14 +359,23 @@ p {
 }
 
 .profile {
-  border-radius: 50%;
-  background: #1028a3;
-  margin: 10px 20px;
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  background: #5436da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ai .profile {
   background: #10a37f;
-  border-radius: 50%;
+}
+
+.profile img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
 }
 
 .ai {
@@ -407,4 +412,29 @@ textarea {
 .re-write span {
   color: #52b6ff;
   text-decoration: none;
+}
+
+.message {
+  flex: 1;
+
+  color: #dcdcdc;
+  font-size: 20px;
+  max-width: 100%;
+  /* overflow-x: scroll; */
+  white-space: pre-wrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+textarea {
+  width: 100%;
+
+  color: #fff;
+  font-size: 18px;
+
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  border: none;
+  outline: none;
 }
